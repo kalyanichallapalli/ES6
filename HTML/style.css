@@ -1,0 +1,50 @@
+ /* element selectors */
+div{
+    font-size: 50px;
+    color: blue;
+    text-align:center;    
+    background-color: yellow;
+}    
+
+ h1{
+    font-size: 40px;
+    text-align:center;  
+    color: rgb(33, 221, 221);
+    
+
+/* id selector: #myid*/  
+
+#myid{
+
+    font-size: 30px;
+    color: rgb(33, 52, 221);
+    text-align:left;    
+    
+}    
+/*class selectore .myid */
+.myid{
+    font-size: 25px;
+    color: rgb(221, 33, 136);
+    text-align:center;    
+}
+
+
+{
+    
+    background-color: wheat;
+}
+/*grouping selectors*/
+
+/*div h1{
+    
+    color: blue;
+    text-align:center;    
+    background-color: yellow;
+}    */
+
+p{ 
+    font-size: 40px;
+    text-align:center;  
+    color: rgb(33, 221, 221);
+    
+}
