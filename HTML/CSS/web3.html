@@ -2,54 +2,74 @@
 <html lang="en">
     <title>First Web Page</title>
 <head>
-    <link rel="stylesheet" href="External.css"> 
+    <!-- <link rel="stylesheet" href="External.css">  -->
     <style>
-    body {
-       margin: 0;
+  h2 {                          /* ELEENT SELECTOR */
+  text-align: LEFT;
+  color: red;
+  font-size: 40px;
 }
-img {
-  border-radius: 50%;
+  #para1 {                       /* ID SELECTOR */
+  text-align: center;
+  color: rgb(112, 114, 216);
+  }
+
+  .header {                     /* CLASS SELECTOR */
+  text-align: RIGHT;
+  color: red;
+
+  }
+
+  /* * {                        /* UNIVERSAL SELECTOR */
+ /* text-align: center;
+  color: blue;  
+  } */
+
+
+/*
+h3 {
+  text-align: left;
+  color: red;
+  font-size: 40px;
 }
-     
+
+h4 {
+  text-align: LEFT;
+  color: red;
+  font-size: 40px;
+}
+
+p {
+  text-align: LEFT;
+  color: red;
+  font-size: 40px;
+} */
+
+ h3, h4, p {                /*GROUPING selector*/
+  text-align: center;
+  color: blue; 
+  font-size: 40px;
+ }
+ div p {
+  background-color: yellow;
+}
+    
 </style>
 </head>
 <body>  
  
-    <dev class = "header">
-       <h1>Shopy.......</h1>
-    </dev>
-    <br>
-    <div class="topnav">
-        <a href="#">Department</a>
-        <a href="#">Service</a>
-        <a href="#">search</a>
-      </div>
+  <h2> ELEMENT SELECTOR</h2>
+  <dev class = "header">
+    <h1>CLASS SELECTOR</Section></h1>
+  </dev>
+  <p id="para1">ID SELECTOR</p> 
+  <P>PARA-GROUPING SELECTOR</P>
+  <h3>H3-GROUPINGN SELECTOR</h3>
+  <h4>H4-GROUPING SELECTOR </h4>  
 
-      <div class="row">
-        <div class="column">
-          <h2>Deals</h2>
-          <p>Tomorrow’s Deal Save $170 on the Acer 11.6" touchscreer Chromebook</p>
-        </div>
-
-        <div class="column">
-          <h2>Deal of the Day</h2>
-          <p>25% on hair care.</p>
-        </div>
-        
-        <div class="column">
-         <h2>Holiday Best Target◎deals</h2>
-          <p>Get a head start on the holidays.</p> 
-          <dev class = "img-A">
-
-          </dev>
-        </div>
-       
-      </div> 
-      <div class="footer">
-        <p>Footer: "@"Shoppy..........   </p>
-      </div>
+  <div class="footer">      
+    <p>Footer: "@"Shoppy..........   </p>
+  </div>
          
-
-
 </body>
 </html>
