@@ -49,7 +49,14 @@ p {
  div p {
   background-color: yellow;
 }
-    
+p.intro::first-letter {
+  color: #e5ff00;
+  font-size: 200%;
+}  
+a.highlight:hover {
+  color: red;
+  font-size: 25px
+
 </style>
 </head>
 <body>  
@@ -63,7 +70,11 @@ p {
   <P>PARA-GROUPING SELECTOR</P>
   <h3>H3-GROUPINGN SELECTOR</h3>
   <h4>H4-GROUPING SELECTOR </h4>  
-
+  <P class="intro">This is Pseudo-Elements </P>
+  <dev><a class="highlight" href="css_syntax.asp">Pseudo-Classes </a>
+  <br>
+  <a href="default.asp">HTML Classes</a>
+  </dev>
   <div class="footer">      
     <p>Footer: "@"Shoppy..........   </p>
   </div>
