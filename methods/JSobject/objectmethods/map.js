@@ -1,4 +1,5 @@
 // Create a Map using new MAP() method
+//const fruits = new Map();
 const fruits = new Map([
     ["apples", 500],
     ["bananas", 300],
@@ -35,53 +36,15 @@ const fruit = new Map();
  console.log(typeof fruits)
  //instanceof Map ??//?////////////////////////////??????
 
- //Map.forEach(): invokes a callback for each key/value pait in the map
+ //Map.forEach(): invokes a callback for each key/value pair in the map
  const vegitables = new Map([
      ["carrot", 100],["eggplant", 200],["beans", 500]
     ]); 
  let text = "";
  vegitables.forEach (function(value, key) {
-    text += key +' = '+ value;
+    text += key +' = '+ value + ',';
     
   })
-
-  console.log("here to check map entries")
-  //Map.entries():The entries() method returns a new Iterator object that contains the [key, value]
-  // pairs for each element in the Map object.
-const marks = new Map();
-marks.set(["math",100]);
-marks.set(["english",70]);
-marks.set(["social",80]);
-marks.set(["{}",60]);
-
-const list = marks.entries( );
-console.log("list:",list)
-console.log(list.next().value)
-console.log(list.next().value)
-console.log(list.next().value)
-console.log(list.next().value)
-
-//Map.keys() method will returns a new itrator object 
-//thats contain keys for each element in the map object
-
-
-  //Map.values() ??????????
-
-  
-
   console.log(text)
 
-
-
-
-
-
- 
-
-
-    
-
-
-
-
-
+  
