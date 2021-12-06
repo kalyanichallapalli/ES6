@@ -16,7 +16,7 @@ console.log(newmarks)
 //Map.values() The values method returns an iterator object with the values in a Map:
 console.log(marks.values()) // to dispaly all values 
 let total = 0;
-for (let x of marks.values()) { // to perform an operation  and to get result 
+for (let x of marks.values()) { // to perform an operation  we use for…of Loop 
   total += x;
 }
 console.log(total)
