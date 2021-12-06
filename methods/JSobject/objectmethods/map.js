@@ -45,11 +45,29 @@ const fruit = new Map();
     
   })
 
-  //Map.keys()?????????????
+  console.log("here to check map entries")
+  //Map.entries():The entries() method returns a new Iterator object that contains the [key, value]
+  // pairs for each element in the Map object.
+const marks = new Map();
+marks.set(["math",100]);
+marks.set(["english",70]);
+marks.set(["social",80]);
+marks.set(["{}",60]);
+
+const list = marks.entries( );
+console.log("list:",list)
+console.log(list.next().value)
+console.log(list.next().value)
+console.log(list.next().value)
+console.log(list.next().value)
+
+//Map.keys() method will returns a new itrator object 
+//thats contain keys for each element in the map object
+
 
   //Map.values() ??????????
 
-  //Map.entries()
+  
 
   console.log(text)
 

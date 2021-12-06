@@ -15,7 +15,7 @@ const person = {
     lastName : "Doe",
     id       : 5566,
     fullName : function() {
-      return this.firstName + " " + this.lastName;
+      return this.firstName + " " + this.lastName; // here this keyword mens the owner of the object 
     }
   };
   //accessing object function 
