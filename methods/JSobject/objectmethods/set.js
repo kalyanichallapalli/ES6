@@ -32,13 +32,12 @@ for (const entry of list) {
     console.log(entry);
 
 }
-/* const mark= new Map([["a",10],["b",20],["c",30]]);
-const list1 = mark.entries();
-for (const entr of list1) {
-    console.log(entr);
+// const mark= new Map([["a",10],["b",20],["c",30]]);
+// const list1 = mark.entries();
+// for (const entr of list1) {
+//     console.log(entr);
 
-}
-*/
+// }
 
 //SEt has() it will return boolen vale wether the seqrching element with specified vale exist or not ? 
 console.log(marks.has(100));
