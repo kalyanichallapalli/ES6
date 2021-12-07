@@ -7,7 +7,7 @@ let name = {
 //accessing accessing an object
 let fname = name.first_name;
 let lname = name["last_name"];
-console.log(fname,lname)
+console.log("Accessing properties from object:",fname,lname)
 
 //object with function def 
 const person = {
@@ -20,7 +20,7 @@ const person = {
   };
   //accessing object function 
   let name1=person.fullName();
-  console.log(person.firstName)
+  console.log("Accessing object function:",person.firstName)
   console.log(name1)
  
 
