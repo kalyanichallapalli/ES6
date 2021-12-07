@@ -7,7 +7,7 @@ fruit.add("apple");
 fruit.add("mango");
 fruit.add("pinapple");
 console.log(fruit)
-//The forEach() Method  method executes a provided function 
+//The forEach() Method  executes a provided function 
 //once for each value in the Set object, in insertion order.
 const number = new Set([1,2,3,4,5]);
 let total = 0;
@@ -22,7 +22,7 @@ console.log(total)
 let numvalues = number.values(); 
 console.log(numvalues)
 
-//The keys() Method : A Set has no keys. but if you gibe kay() it will return same as value()
+//The keys() Method : A Set has no keys. but if you give key() it will return same as value()
 let numvalue = number.keys(); 
 console.log(numvalue)
 //entries() returns [value,value] pairs instead of [key,value] pairs.
@@ -39,9 +39,9 @@ for (const entry of list) {
 
 // }
 
-//SEt has() it will return boolen vale wether the seqrching element with specified vale exist or not ? 
+//SET has() it will return boolen vale wether the seqrching element with specified vale exist or not ? 
 console.log(marks.has(100));
-// set delete() will delete an specified vale that is in the set
+// set delete() will delete an specified value that is in the set
 console.log(marks.delete(100))
 console.log(marks)
 //SET clear() will remove all element values from set
