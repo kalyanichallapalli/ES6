@@ -9,19 +9,18 @@
 // console.log(text[0])
 
 function string1(test){
-    
-    for (let i = 0; i < test.length; i++) {
-        var fstr = test[i];
-        var sstr = test[i + 1] ;
-         if (sstr = fstr){
-
-        }
-        else {
-            sstr = test[i+1]
-        } 
-        return fstr;    
-    } 
-
-      
+var values = '';
+count = 0;
+for(let i=0; i<test.length; i++){
+   for(let j=i+1; j<test.length; j++){
+   if(test[i] == test[j]){
+      count ++;
+      console.log(count)
+    }  
+}
+values+=test[i];
+} 
+return values; 
 }
 console.log(string1("ABABBC")) 
+
