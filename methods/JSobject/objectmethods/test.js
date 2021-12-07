@@ -46,3 +46,12 @@ function temperature(temp) {
    return fahrenheitTemps; 
 }
 console.log(temperature([22, 36, 71, 54]))
+
+//USING MAP AND FUNCTION
+function temp(temp) {
+    celciusTemps = new Map();
+const fahrenheitTemps = temp.map(e => e * (9/5) + 32);
+return fahrenheitTemps;
+}
+console.log(temp([22, 36, 71, 54]))
+
