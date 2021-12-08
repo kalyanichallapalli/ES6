@@ -12,7 +12,7 @@ console.log(fruit)
 const number = new Set([1,2,3,4,5]);
 let total = 0;
 
-number.forEach(function(values){
+number.forEach((values)=>{
 
     total+= values;
 })

@@ -1,4 +1,4 @@
-//create  object
+//create  object or define 
 let name = {
       first_name : 'kalyani',
       last_name  : 'challapalli',
@@ -11,17 +11,17 @@ console.log("Accessing properties from object:",fname,lname)
 
 //object with function def 
 const person = {
-    firstName: "John",
-    lastName : "Doe",
+    firstName: "kalyani",
+    lastName : "challapalli",
     id       : 5566,
     fullName : function() {
       return this.firstName + " " + this.lastName; // here this keyword mens the owner of the object 
     }
   };
+  console.log("Accessing object property name :",person.firstName)
   //accessing object function 
   let name1=person.fullName();
-  console.log("Accessing object function:",person.firstName)
-  console.log(name1)
+  console.log("Accessing object function:",name1)
  
 
   

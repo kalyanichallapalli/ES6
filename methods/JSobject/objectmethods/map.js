@@ -41,10 +41,10 @@ const fruit = new Map();
      ["carrot", 100],["eggplant", 200],["beans", 500]
     ]); 
  let text = "";
- vegitables.forEach (function(value, key) {
+ vegitables.forEach((value, key) => {
     text += key +' = '+ value + ',';
     
-  })
+  });
   console.log(text)
 
   
