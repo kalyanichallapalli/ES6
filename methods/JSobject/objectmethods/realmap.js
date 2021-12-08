@@ -7,7 +7,7 @@ function characterCount(myString) {
     var map = new Map();
     for (let i=0;i<arr1.length;i++){
         var count = 0;
-        if (map.has(arr1[i])) {
+        if (map.has(arr1[i])) {   
             count = map.get(arr1[i]);
             count = count +1;
         } else {
@@ -17,5 +17,5 @@ function characterCount(myString) {
     }
     return map;
 }
-console.log(characterCount('ABCDABC'))
+//console.log(characterCount('ABCDABC'))
 console.log(characterCount('BABBCA'))
