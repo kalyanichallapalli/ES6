@@ -34,7 +34,6 @@ const fruit = new Map();
 
  //typeof map returns object:
  console.log(typeof fruits)
- //instanceof Map ??//?////////////////////////////??????
 
  //Map.forEach(): invokes a callback for each key/value pair in the map
  const vegitables = new Map([
