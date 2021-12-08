@@ -5,6 +5,7 @@ const fruits = new Map([
     ["bananas", 300],
     ["oranges", 200]
   ]);
+  console.log("DEF AND SET ELMENTS TOGETHER ",fruits)
 //Add the values to  MAP using Set() method
 
 const fruit = new Map();
@@ -12,7 +13,7 @@ const fruit = new Map();
     fruit.set("apple",500);
     fruit.set("mango",300);
     fruit.set("grapes",400);
-    console.log(fruit)
+    console.log("AFTER DEF SET THE ELEMENTS ",fruit)
 
  //To get the vaule  of a key use Map.get()
  
