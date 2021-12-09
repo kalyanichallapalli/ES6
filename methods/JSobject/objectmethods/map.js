@@ -32,6 +32,8 @@ const fruit = new Map();
 
  //Map.has() method will find the element existence if its there or not 
  console.log(fruit.has("mango"));
+ console.log(fruit.has("apple"));
+
 
  //typeof map returns object:
  console.log(typeof fruits)
