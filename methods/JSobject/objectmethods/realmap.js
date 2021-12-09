@@ -8,12 +8,12 @@ function characterCount(myString) {
     for (let i=0;i<arr1.length;i++){
         var count = 0;
         if (map.has(arr1[i])) {   
-            count = map.get(arr1[i]);
+            count = map.get(arr1[i]); // get gives value of key
             count = count +1;
         } else {
             count = 1;
         }
-        map.set(arr1[i], count);
+        map.set(arr1[i], count); // B -> 2, A -> 1,  
     }
     return map;
 }
