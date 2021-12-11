@@ -41,7 +41,6 @@ function average(arr1,arr2) {
 
       return " no winner ";
     }
-
 }
 
 console.log(average([44,23,71],[65,54,49]))
