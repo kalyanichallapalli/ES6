@@ -13,7 +13,7 @@ function readFile(fileName) {
 }
 
 function mainProgram() {
-    var fileName = "tejo.txt";
+    var fileName = "a.txt";
     readFile(fileName)
     .then(data => {
         console.log("Data is : " + data);
