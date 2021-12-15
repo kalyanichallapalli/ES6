@@ -3,13 +3,13 @@
 let A = [1,2,3,4];
 let B = [5,6,7,8];
 let C = [...A,...B]
-console.log(C)
+console.log(C) 
 // using spread operator in combinaction of destructuring
 const numbers = [1, 2, 3, 4, 5, 6];
-const [one, two, ...rest] = numbers;
+const [one, two, ...etc] = numbers;
 console.log([one])
 console.log([two])
-console.log([rest])
+console.log([etc])
 
 //object spread 
 const myVehicle = {

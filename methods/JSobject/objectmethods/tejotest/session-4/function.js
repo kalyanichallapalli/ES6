@@ -37,7 +37,7 @@ function call(arr,callback) {
 
     const average =  callback(arr);
 
-    console.log("average of different age's:",average);
+    console.log("average of different age's using callback:",average);
 }
 
 call([50,60,80,60],average)

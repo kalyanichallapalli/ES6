@@ -3,7 +3,7 @@ function Dparam(p1,p2){
  console.log(p1 , p2)
 }
 
-//Dparam();
+Dparam();
 //
 function myFunction(x, y) {
     if (y === undefined) {
