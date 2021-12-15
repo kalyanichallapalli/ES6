@@ -3,7 +3,7 @@
 function myFunction(p1, p2) {
     return p1 * p2;   
   }
-  console.log("FD with Name :",myFunction(5, 4))
+  console.log("FD with Name :",myFunction(4, 3))
 
 
 let x = myFunction(4, 3);   // Function is called, return value will end up in x
