@@ -1,4 +1,4 @@
-
+//METHOD :1
 /*function add2array(a, b) {
 
    let R1 = parseInt(a.join(''));
@@ -15,14 +15,8 @@ add2array([1],[5,7,6])
 add2array([3,2,9],[1,2])
 add2array([4,7,3],[1,2,3]) */
 
-// let numbers = 12345;
-// let output = String(numbers).split("")
-// var finaloutput = output.split(',').map(Number);
 
-
-// console.log(output)
-// console.log(finaloutput)
-
+//METHOD :2
 /*(function add2array(a, b) {
     let R3 = parseInt(a.join('')) + parseInt(b.join(''));
     let result = String(R3).split("").map((R3)=>{
@@ -35,22 +29,15 @@ add2array([1],[5,7,6])
 add2array([3,2,9],[1,2])
 add2array([4,7,3],[1,2,3]) */
 
-
-function map(numbers){
-
-    let output = String(numbers).split("")
-    console.log(output)
-    var finaloutput = map((values) => {return parseInt(values)});
-    console.log(finaloutput)
+//METHOD :3
+function add2array(a, b) {
+    return result = (parseInt(a.join('')) + parseInt(b.join(''))).toString().split('').map((values)=> +values);
+          
 }
-map(12345)
+console.log(add2array([1],[5,7,6]))
+console.log(add2array([3,2,9],[1,2]))
+console.log(add2array([4,7,3],[1,2,3])) 
 
-/* let string = "hsiw,u,lla,yppah,samtsirhc"
-let arr1 = string.split('');
-console.log(arr1)
-let arr2 = arr1.reverse();
-console.log(arr2)
 
-let arr3 = String(arr2).split('');
-console.log(arr3) */
+
 
