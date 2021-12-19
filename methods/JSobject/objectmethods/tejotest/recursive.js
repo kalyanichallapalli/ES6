@@ -5,18 +5,18 @@
 function cumnum(num) {   
     var digits = num.toString().split('');
     var realDigits = digits.map(Number)
-    var i = 0;
-    let sum = realDigits[i] +realDigits[i + 1];
-    sum = sum.toString().split('');
-    console.log(sum)
+    let sum = 0;
+   for(let i =0; i<realDigits.length; i++){
+    sum +=  realDigits[i]
+   } 
 
-    if (sum.length = 1){
-      console.log(sum)
+    if (sum > 9){
+      cumnum(sum);
         
     }
     else {
-    cumnum(sum); 
+    console.log(sum)
     }
 }
 
-cumnum(93);
+cumnum(931);
