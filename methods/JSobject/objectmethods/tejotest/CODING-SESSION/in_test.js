@@ -37,6 +37,8 @@ function add2array(a, b) {
 console.log(add2array([1],[5,7,6]))
 console.log(add2array([3,2,9],[1,2]))
 console.log(add2array([4,7,3],[1,2,3])) 
+console.log(add2array([9,9,9],[2,2,2])) 
+
 
 
 
