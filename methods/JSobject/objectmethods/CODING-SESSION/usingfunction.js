@@ -19,19 +19,7 @@
         if (count.get(i) > maxCount){      
             maxCount = count.get(i) 
         } 
-    });
-    console.log(count)
-    console.log(maxCount)
-//     if (count(i) > maxCount){
-    
-//     let maxValue = 0;
-     
-//     if (count(i) > maxCount){
-//         maxValue = i;
-//         maxCount = itemsMap[i];
-//     } 
-// });  
- }
+    }); 
 
 
     // count => {12 -> 2, 10 -> 2, 8 ->1, 6 -> 1....}
@@ -41,7 +29,7 @@
     // }));
     
     // count = {12 -> 2, 10 ->2
-
+}
 */
 
 //console.log(uniqueCount([12, 10, 8, 12, 7, 6, 4, 10, 12]));
