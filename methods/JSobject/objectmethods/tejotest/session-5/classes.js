@@ -33,3 +33,4 @@ let Rectanglex= class {
   };
   console.log('CLASS EXPRESSION WITH NAME:',Rectangley.name);
   // output: "Rectangle2"
+// Class body and method definitions
