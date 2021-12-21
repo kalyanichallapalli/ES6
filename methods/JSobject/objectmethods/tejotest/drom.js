@@ -12,4 +12,8 @@ function drom(num){
 
 console.log(drom([1,2,3,2,1]))
 console.log(drom([1,2,3,4]))
+console.log(drom(["ABCDCBA"]))
+console.log(drom("kalyani"));
+
+
 

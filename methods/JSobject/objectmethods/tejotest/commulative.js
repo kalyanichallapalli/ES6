@@ -22,3 +22,15 @@ cumarray(93);
 cumarray(164);
 
 //console.log(Math.pow(3, 3));
+let l1 =[2,4,3];
+let l2 = [5,6,4];
+
+var addTwoNumbers = function(l1, l2) {
+    
+    for(let i =0; i<l1.length; i++){
+        sum += l1[i] + l2[i]
+    }
+        
+     console.log(addTwoNumbers);   
+};
+
