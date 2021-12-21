@@ -42,5 +42,8 @@ const garmonbozia = {
 console.log(
   garmonbozia.mysteryMeats[3].deliverables[3]()()()()().what.offering
 );
+//The following code logs Captain America
+//console.log(createCaptain().aliases.superheroName)
 
-console.log(createCaptain().aliases.superheroName)
+//The following code logs i can do this all day
+//console.log(createCaptain().sayPhrase()
