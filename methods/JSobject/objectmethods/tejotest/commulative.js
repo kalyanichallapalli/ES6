@@ -20,3 +20,5 @@ function cumarray (num){
 }
 cumarray(93);
 cumarray(164);
+
+//console.log(Math.pow(3, 3));
