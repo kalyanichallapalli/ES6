@@ -5,11 +5,12 @@ let B = [5,6,7,8];
 let C = [...A,...B]
 console.log(C) 
 // using spread operator in combinaction of destructuring
+
 const numbers = [1, 2, 3, 4, 5, 6];
-const [one, two, ...etc] = numbers;
+const [one, two, ...x] = numbers;
 console.log([one])
 console.log([two])
-console.log([etc])
+console.log(x)
 
 //object spread 
 const myVehicle = {
