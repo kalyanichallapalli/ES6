@@ -35,7 +35,7 @@
 //console.log(uniqueCount([12, 10, 8, 12, 7, 6, 4, 10, 12]));
 // console.log(eliminateDuplicates([12, 10, 8, 12, 7, 6, 4, 10, 12,10]));
 //console.log(eliminateDuplicates([12, 10, 8, 8, 3, 3, 3, 3, 2, 4, 10, 12, 10]));
-
+/*
 function findMaxOccurence(givenArray){
 let itemsMap = {};
 let maxValue = 0;
@@ -56,10 +56,32 @@ console.log('Value:', maxValue, "Count", maxCount);
 
 }
 findMaxOccurence([12, 10, 8, 12, 7, 6, 4, 10, 12]);
-findMaxOccurence([12, 10, 8, 12, 7, 6, 4, 10, 12,10,10]);
+findMaxOccurence([12, 10, 8, 12, 7, 6, 4, 10, 12,10]);
 findMaxOccurence([12, 10, 8,3,3,3,3,3,3,12, 7, 6, 4, 10, 12,10,10]);
+*/
 
+function myArrayMax(arr) {
+let value = 0;
+for(let i = 0; i<arr.length; i++) {
+    console.log(arr[i])
+    //console.log(arr[i+1])
 
+    if(arr[i] == arr[i+1]){
+    
+        value = arr[i]
+        }else {
+        
+        continue;
+        
+        }
+        
+    }
+   console.log(value)
+  
+}
+myArrayMax([12,10,8,12,7,6,4,10,12]);
+myArrayMax([12,10,8,12,7,6,4,10,12,10]);
+myArrayMax([12,3,10,8,3,12,7,3,6,4,3,12]);
 
     
     
