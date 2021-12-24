@@ -3,3 +3,6 @@ The object key will be the number, as a string. The value will be the correspond
 as a string.Return an array of the resulting objects.All inputs will be arrays of numbers. 
 All character codes are valid lower case letters. The input array will not be empty
  */
+
+let arr1 = [1,2,3,4,5,6,7,8];
+let obj1 = 
