@@ -4,5 +4,11 @@ as a string.Return an array of the resulting objects.All inputs will be arrays o
 All character codes are valid lower case letters. The input array will not be empty
  */
 
-let arr1 = [1,2,3,4,5,6,7,8];
-let obj1 = 
+let arr1 = [48,117];
+let obj1 = {};
+ascii = '';
+for (i=0; i<arr1.length; i++){
+
+    ascii = arr1.charCodeAt[i];
+
+}

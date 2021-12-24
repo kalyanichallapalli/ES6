@@ -15,4 +15,5 @@ console.log(sayTorF('ebCde','BCD'))
 console.log(sayTorF('eCB','ECB'))
 console.log(sayTorF('BcdEF','BCEF'))
 console.log(sayTorF('BCD','BcD'))
-console.log(sayTorF('BCD','DBC'))
+//console.log(sayTorF('BCD','DBC'))
+console.log(sayTorF('BCd','BCd')); //TRUE
