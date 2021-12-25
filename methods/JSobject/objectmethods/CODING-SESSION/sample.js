@@ -17,6 +17,8 @@ function sayTorF(s1,s2){
   console.log(sayTorF('BcdEF','BCEF'))
   console.log(sayTorF('BCD','BcD'))
   console.log(sayTorF('BCd','BCd'))
+  console.log(sayTorF('BCD','CBD'))
+  
 /*
 function strcompare(str1,str2)
 {

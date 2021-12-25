@@ -16,5 +16,6 @@ function asciicode(arra1){
  return asciivalue;
 }
 console.log(asciicode([118,117,120]))
+console.log(asciicode([101,121,110,113,113,103]))
 
 
