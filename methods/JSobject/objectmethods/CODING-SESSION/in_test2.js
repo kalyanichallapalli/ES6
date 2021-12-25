@@ -1,19 +1,20 @@
-function sayTorF(string1,string2){
-    let result = string1.toUpperCase();
-    let num = result.length - string2.length;
+function sayTorF(s1,s2){
+    let num = s1.length - s2.length;
     count = 0; 
-   for(i=0; i<result.length; i++) {
-        if(!string2.includes(result[i])){
-          count++;
-       };
-       if(count > num)
-       return false;
-   }
-  return true
-  }
-  console.log(sayTorF('ebCde','BCD'))
-  console.log(sayTorF('eCB','ECB'))
-  console.log(sayTorF('BcdEF','BCEF'))
-  console.log(sayTorF('BCD','BcD'))
-// console.log(sayTorF('BCd','BCd'))
+   for(let i of s1) 
+   {
+      if(!(s2.includes(i) || s2.includes(i.toUpperCase())))
 
+          count++;
+   }      
+    if(count == num)
+       return true;
+    else
+       return false;
+  }
+  console.log(sayTorF('ebCde','BCD'))//T
+  console.log(sayTorF('eCB','ECB'))//T
+  console.log(sayTorF('BcdEF','BCEF'))//T
+  console.log(sayTorF('BCD','BcD'))//F
+  console.log(sayTorF('BCd','BCd'))//T
+  console.log(sayTorF('xyEzw','xyz'))//T

@@ -4,11 +4,17 @@ as a string.Return an array of the resulting objects.All inputs will be arrays o
 All character codes are valid lower case letters. The input array will not be empty
  */
 
-let arr1 = [48,117];
-let obj1 = {};
-ascii = '';
-for (i=0; i<arr1.length; i++){
+// let number = 97;
+// let ascii = String.fromCharCode(number); 
+//     console.log(ascii)
 
-    ascii = arr1.charCodeAt[i];
-
+function asciicode(arra1){                                  
+  var asciivalue = {};
+  for (let i =0; i<arra1.length; i++){
+  asciivalue [i] = String.fromCharCode(arra1[i]);  
+  }
+ return asciivalue;
 }
+console.log(asciicode([118,117,120]))
+
+
