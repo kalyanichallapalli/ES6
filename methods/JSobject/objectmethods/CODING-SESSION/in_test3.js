@@ -8,14 +8,23 @@ All character codes are valid lower case letters. The input array will not be em
 // let ascii = String.fromCharCode(number); 
 //     console.log(ascii)
 
-function asciicode(arra1){                                  
-  var asciivalue = {};
-  for (let i =0; i<arra1.length; i++){
-  asciivalue [i] = String.fromCharCode(arra1[i]);  
+function asciicode(arra1){ 
+                                  
+  var asciivalue = [];
+  for(let i =0; i<arra1.length; i++){
+  asciivalue [i] = {[i]: String.fromCharCode(arra1[i])};  
+ // asciicode.push({arra1[i]: String.fromCharCode(arra1[i])});
   }
  return asciivalue;
 }
 console.log(asciicode([118,117,120]))
-console.log(asciicode([101,121,110,113,113,103]))
+console.log(asciicode([101,121,110,113,113,103]));
 
 
+function name (arr) {
+let array = [];
+array.push(arr.map((val)=>{return {[val]:String.fromCharCode(val)}}));
+return array;
+}
+console.log(name([101,121,110,113,113,103]))
+console.log(name([118,117,120]))
