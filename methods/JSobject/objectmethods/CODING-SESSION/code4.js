@@ -12,5 +12,8 @@ for(let i=0; i<num.length; i++){
 }
 return arr2;
 }
+function number(arr1){
+    return arr1.map((v,i) => (v+i+1)%10) //using MAP
+}
 console.log(number([1,2,3]));
 console.log(number([4, 6, 9, 1, 3]));
