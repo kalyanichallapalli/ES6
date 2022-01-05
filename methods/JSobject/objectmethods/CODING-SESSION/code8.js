@@ -6,8 +6,40 @@
 // expandedForm(70304); // Should return '70000 + 300 + 4'
 // NOTE: All numbers will be whole numbers greater than 0.
 
-function expandedForm(number){
-    
+function expandedNums (num) {
+    num = num.toString();
+    const equation = [];
+    let multiplier = 1;
+    for(let i = 1; i<=num.length;i++){
+      const digit = num[num.length-i];
+      digit > 0 && equation.unshift(digit*multiplier);
+      multiplier*=10;
+    }
+ 
+    return equation.join(' + ');
+  }
+console.log(expandedNums(12))
+//console.log(expandedNums(1112))
 
-}
-expandedForm(12)
+// function expandedNums(num){
+//     const str = String(num);
+//     let res = '';
+//     let multiplier = Math.pow(10, str.length - 1);
+//     for(let i = 0; i < str.length; i++){
+//         const el = +str[i];
+//         const next = +str[i + 1];
+//         if(el){
+//             res += (el * multiplier);
+        
+//          };
+//          if(next){
+//             res += ' + ';
+//         };
+//         multiplier /= 10;
+// } 
+// return res;
+// }
+// console.log(expandedNums(12))
+// console.log(expandedNums(1112))
+
+  
