@@ -8,8 +8,17 @@
 // solution('abcdef') // should return ['ab', 'cd', 'ef']
 
 function Generator(str) {
-    let wordArray = str.split(' ').filter(char => char !== "");
-  console.log(wordArray)
+    let i=0;
+    let result = [];
+    if((str.length%2 !== 0)){
+        str+= '_'
+        console.log(str)
+    } 
+    while(i<str.length){
+        result.push(str[i] + str[i+1])
+        i+= 2
+    }
+    return result;
 }
 console.log(Generator("ABC"))
 console.log(Generator("ABCDEF"))
