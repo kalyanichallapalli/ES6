@@ -12,7 +12,7 @@ let Arr1 = [{name: "syed",id: 6, age: "30", },
             {name: "vikas",id: 10,age: "30",},];
 let output = {};
 
-Arr1.forEach (a =>{
+Arr1.forEach (a =>{ // a is value of object.
     if(output[a.age] === undefined){
       output[a.age] = []
     }
