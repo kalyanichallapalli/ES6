@@ -14,7 +14,7 @@ let output = {};
 
 Arr1.forEach (a =>{ // a is value of object.
     if(output[a.age] === undefined){
-      output[a.age] = []
+      output[a.age] = [] //a.age[30] ...> first time 
     }
     output[a.age].push(a.name)                      
     });  
