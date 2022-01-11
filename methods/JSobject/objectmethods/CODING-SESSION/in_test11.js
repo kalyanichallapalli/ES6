@@ -1,4 +1,12 @@
 // modify the structure of the object like the below 
+/*{name:"Thasneem",
+   id:19,
+ addr:{
+      city:"Kerela",
+      country:"india",
+       ph:"9849890387"
+    },   
+  } */
  let users = [{
         name: "syed",
         id: 9,
@@ -28,19 +36,7 @@
         ph: "9849890387"
     }
 ]
-/*
-{
-    name:"Thasneem",
-    id:19,
-    addr:{
-      city:"Kerela",
-      country:"india",
-       ph:"9849890387"
-    },
-       
-  }
- 
-*/
+
 
 for(i=0; i<users.length; i++){
     users[i].addr.ph = users[i].ph;
