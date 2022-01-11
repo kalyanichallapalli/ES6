@@ -37,12 +37,12 @@
     }
 ]
 
-
+/*
 for(i=0; i<users.length; i++){
     users[i].addr.ph = users[i].ph;
     delete users[i].ph;
 }
-console.log(users)
+console.log(users) */
 
 // let newusers = users.map((obj)=>{
 //       obj.addr.ph=obj.ph;
@@ -50,5 +50,10 @@ console.log(users)
 //       return obj
 //     })
 //     console.log(newusers)
+users.forEach((obj)=>{
+      obj.addr.ph=obj.ph;
+      delete obj.ph;
+    })
+    console.log(users)
 
    
