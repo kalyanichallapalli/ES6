@@ -20,6 +20,23 @@ let sku =[{id:4,str:"selected all"},
 
 let find = offers.filter(a => sku.some(b => a.id === b.id && a.valid == "yes" && b.str == "selected all"));
 
-console.log(find)
+//console.log(find)
 
 
+function check(offeres,sku){
+    let nw = [];
+    let r = [];
+    for(let i=0; i<offeres.length; i++){
+        if(offeres[i].valid == "yes"){
+            nw.push(offeres[i]);
+            console.log(nw)
+        }
+    }
+    for(let obj of nw){
+        r.push(...sku.filter(a => a.id == obj.id))
+    } 
+    console.log("result:",r)
+    let result = r.map((val) => val.str == "selected all"? true: false)
+    return result;
+}
+console.log(check(offers,sku))
