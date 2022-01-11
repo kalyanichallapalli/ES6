@@ -15,26 +15,13 @@ let find = offers.filter(val => val.valid === "yes")
                  .map(val => (sku.some(item => item.id === val.id && item.str === "selected all")));
 console.log(find)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*()
-function check(offeres,sku){
+/*
+function check(offers,sku){
     let nw = [];
     let r = [];
-    for(let i=0; i<offeres.length; i++){
-        if(offeres[i].valid == "yes"){
-            nw.push(offeres[i]);
+    for(let i=0; i<offers.length; i++){
+        if(offers[i].valid == "yes"){
+            nw.push(offers[i]);
             console.log(nw)
         }
     }
@@ -42,7 +29,8 @@ function check(offeres,sku){
         r.push(...sku.filter(a => a.id == obj.id))
     } 
     console.log("result:",r)
-    let result = r.map((val) => val.str == "selected all"? true: false)
+    let result = r.map((val) => val.str == "selected all")
+    
     return result;
 }
 console.log(check(offers,sku))*/
