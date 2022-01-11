@@ -42,9 +42,17 @@
  
 */
 
-let  newusers =  users.map((obj)=>{
-    obj.addr.ph == obj.ph;
-    delete obj.ph; 
-    return obj;
-})
-console.log(newusers)   
+for(i=0; i<users.length; i++){
+    users[i].addr.ph = users[i].ph;
+    delete users[i].ph;
+}
+console.log(users)
+
+// let newusers = users.map((obj)=>{
+//       obj.addr.ph=obj.ph;
+//       delete obj.ph;
+//       return obj
+//     })
+//     console.log(newusers)
+
+   
