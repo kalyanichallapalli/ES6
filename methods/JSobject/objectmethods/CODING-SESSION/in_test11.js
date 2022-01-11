@@ -1,0 +1,50 @@
+// modify the structure of the object like the below 
+ let users = [{
+        name: "syed",
+        id: 9,
+        addr: {
+            city: "hyd",
+            country: "india"
+        },
+        ph: "9849890386"
+
+    },
+    {
+        name: "rasna",
+        id: 19,
+        addr: {
+            city: "Kerela",
+            country: "india"
+        },
+        ph: "9849890388"
+    },
+    {
+        name: "Thasneem",
+        id: 19,
+        addr: {
+            city: "Kerela",
+            country: "india"
+        },
+        ph: "9849890387"
+    }
+]
+/*
+{
+    name:"Thasneem",
+    id:19,
+    addr:{
+      city:"Kerela",
+      country:"india",
+       ph:"9849890387"
+    },
+       
+  }
+ 
+*/
+
+let  newusers =  users.map((obj)=>{
+    obj.addr.ph == obj.ph;
+    delete obj.ph; 
+    return obj;
+})
+console.log(newusers)   
