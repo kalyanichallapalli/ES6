@@ -1,22 +1,23 @@
 //The constructor method is a special method of a class for creating and initializing an object 
 //instance of that class.
-  class Rectangle {
-  
-    constructor(height, width) {
-      this.height = height;
-      this.width = width;
+class PersonCl
+{
+    constructor(firstName,birthYear)
+    {
+        this.firstName=firstName;
+        this.birthYear=birthYear;
     }
+    calcAge()
+    {
+        console.log(2037-this.birthYear);
+    }
+    greet()
+    {
+        console.log(`hai ${this.firstName}`);
+    } 
 }
-let twoValues = new Rectangle(4,5);
-console.log(twoValues);
-console.log(twoValues.height)
 
-// class person {
-//     constructor(name, age){
-//         this.name = name;
-//         this.age = age;
-//     }
-// }
-//  let obj1 = new person("tejo", 40)
-//  console.log(obj1)
-//  console.log(obj1.age)
+const jessica = new PersonCl('jessica', 1990);
+console.log(jessica);
+jessica.calcAge();
+jessica.greet();
