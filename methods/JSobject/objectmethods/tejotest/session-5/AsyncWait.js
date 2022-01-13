@@ -22,3 +22,14 @@ async function hello() {
   };
   
   hello().then(console.log);
+//
+async function first() {
+    let promise = new Promise((res, rej) => {
+        setTimeout(() => res("Now it's done!"), 1000)
+    });
+
+    // wait until the promise returns us a value
+    let result = await promise; 
+    console.log(result); 
+    }
+first();
