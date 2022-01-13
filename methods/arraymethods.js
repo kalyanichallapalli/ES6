@@ -1,6 +1,6 @@
 //TOSTRING METHOD: Array converts to string
 
-/* onst fruits = ["Banana", "Orange", "Apple", "mango"];
+/* const fruits = ["Banana", "Orange", "Apple", "mango"];
 let str = fruits.toString();
 console.log("Tostring:",str) */
 

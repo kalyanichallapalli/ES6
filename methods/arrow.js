@@ -6,4 +6,4 @@ var x = function(x, y) {
  console.log(x(2, 3))
  // ES6
  const y = (x, y) => x * y;
- console.log(y(2, 5))
+ console.log(x(2, 5))

@@ -28,7 +28,7 @@ console.log(age(4));
 
 // SWITH CASE 
 
-const expr = 'Oranges';
+const expr = 'guva';
 switch (expr) {
   case 'Oranges':
     console.log('Oranges are $0.59 a pound.');
