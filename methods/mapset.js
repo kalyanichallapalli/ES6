@@ -41,9 +41,6 @@ let set1 = new Set(); // creating set object
 set1.add(1);set1.add(2);set1.add(4);set1.add(3) //add
 console.log(set1)
 console.log(set1.has(1)) //has
-let setit = set1.values();//values
-console.log(setit.next().value);console.log(setit.next().value) //accesssing values 
-let sum = set1.forEach((values,value) =>{
- console.log(values)
-});
-console.log(sum)
+// let setit = set1.values();//values
+// console.log(setit.next().value);console.log(setit.next().value) //accesssing values 
+          
