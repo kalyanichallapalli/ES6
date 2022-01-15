@@ -43,7 +43,8 @@ return AreaOfTriangle;
 function digit(numm){
     let resp = [];
   while(numm>0){
-      resp.push(numm%10)
+      resp.push(numm%10);
+      resp.reverse()
       numm = Math.trunc(numm/10);
   }  
   return resp;
@@ -129,4 +130,24 @@ for(let i=0; i<=limit; i++){
 }
 //fibonacci(8);
 //10)Write a program to get a factorial of a number (Using recursive function).
-// program to count down numbers to 1
+function fact(ax){
+    let relt = 1;
+    while(ax>0){
+        relt = relt * ax;
+        ax--;
+    }
+   return relt;
+}
+console.log(fact(5))
+console.log(fact(6))
+
+let result2 = 1;
+function countDown(number) {
+    if (number == 1) {
+        return 1;
+    } else {
+        return number * countDown(number -1);
+    }
+}
+console.log(countDown(5))
+console.log(countDown(6))
