@@ -2,7 +2,7 @@ import './App.css';
 import FunctionComponent from './Components/Functionalcomp';
 import ClassComp from './Components/ClassComp';
 import F1 from './Props/f1';
-function App() {
+function App(){
   return (
     <div className="App">
       <h2>React Project</h2>
@@ -12,5 +12,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
