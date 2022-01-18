@@ -6,5 +6,7 @@ function F1(){
         <F2 username = {name}></F2>
     </dev>
 }
-export default F1;
+export default F1; 
+
+
 
