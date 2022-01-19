@@ -1,6 +1,7 @@
 function FunctionComp() {
+    let name = "kalyani";
     return <dev>
-        <h2>This is the Functional Component Created by</h2>
+        <h2>This is the Functional Component Created by{name}</h2>
     </dev>
     
 }
