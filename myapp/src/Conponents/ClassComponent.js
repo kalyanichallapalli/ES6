@@ -1,7 +1,7 @@
 import React from "react";
 class ClassComponent extends React.Component{
-    constructor(props){
-        super(props);
+    constructor(){
+        super();
         this.name ="Kalyani"
     }
     render() {
