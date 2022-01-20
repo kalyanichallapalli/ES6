@@ -141,7 +141,7 @@ function fact(ax){
 console.log(fact(5))
 console.log(fact(6))
 
-let result2 = 1;
+
 function countDown(number) {
     if (number == 1) {
         return 1;
