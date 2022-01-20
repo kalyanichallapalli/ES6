@@ -13,5 +13,4 @@ if(operator == '+'){
     result = numberr1 / numberr2;
 }
 console.log(`${numberr1} ${operator} ${numberr2} = ${result}`);
-
 //Find the greatest common divisor of two numbers?
