@@ -26,10 +26,29 @@ function gcd_two_numbers(x, y) {
     }
     return x;
   }
-  
   console.log(gcd_two_numbers(8, 12));
-  console.log(gcd_two_numbers(9, 3));
-  console.log(gcd_two_numbers(15, 5));
-  console.log(gcd_two_numbers(2, 4));
- 
+// 
+function gcd(a, b) {
+    if (b) {
+        return gcd(b, a % b);
+    } else {
+        console.log('here')
+        return Math.abs(a);
+    }
+}
+ console.log(gcd(4,8))
+ //
+ function gcd1(a,b) {
+    a = Math.abs(a);
+    b = Math.abs(b);
+    if (b > a) {var temp = a; a = b; b = temp;}
+    while (true) {
+        if (b == 0) return a;
+        a %= b;
+        if (a == 0) return b;
+        b %= a;
+    }
+}
+console.log(gcd1(4,8))
+
  
