@@ -74,4 +74,4 @@ let len = string.length;
 }
 console.log(palindrome('redivider'))
 console.log(palindrome('kalyani'))
-//
+//14)
