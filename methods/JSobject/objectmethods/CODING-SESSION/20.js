@@ -74,4 +74,20 @@ let len = string.length;
 }
 console.log(palindrome('redivider'))
 console.log(palindrome('kalyani'))
-//14)
+//14)Write a program to replace characters with their character code in a  	string?
+//ABCD---65,66,67,68
+function strcode(string){
+    let charcode = '';
+    for(let i=0; i<string.length; i++){
+        charcode += string.charCodeAt(i) + ',';  
+    }
+    return charcode;
+}
+console.log(strcode('ABCD'))
+
+let string = 'ABCD'
+let cc;
+cc = string.split('').map(x => x.charCodeAt(0))
+console.log(cc)
+//Write a program to find a unique character in a string?
+//kalyani$ == $
