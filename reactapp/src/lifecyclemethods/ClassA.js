@@ -4,7 +4,7 @@ class ClassA extends React.Component{
     constructor(){
         super();
         this.state = {
-            name: 'kalyani'
+            name: 'KALYANI'
         } 
         console.log('ClassA: Constructor')
     }
@@ -16,12 +16,29 @@ class ClassA extends React.Component{
     
         console.log('ClassA: componentDidMount')
     }
+    shouldComponentUpdate(){
+        console.log('ClassA: shouldComponentUpdate')
+        return true;    
+    }
+    getSnapshotBeforeUpdate(prevProps, prevState){
+        console.log('ClassA: getSnapshotBeforeUpdate')
+        return null;
+    }
+    componentDidUpdate(){
+        console.log('ClassA: componentDidUpdate')
 
+    }
+    Changestate =()=>{
+        this.setState({
+            name: 'KALYANI CHALLAPALLI'
+        })
+    }
     render(){
         console.log('ClassA: render')
         return <div>
-            <h2>ClassA</h2>
+            <h2>ClassA Created By {this.state.name}</h2>
             <ClassB></ClassB>
+            <button onClick = {this.Changestate}>Change State</button>
         </div>
     }   
 }
