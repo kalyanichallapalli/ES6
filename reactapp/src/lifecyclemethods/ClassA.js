@@ -1,24 +1,28 @@
 import React from "react";
+import ClassB from "./ClassB";
 class ClassA extends React.Component{
-    constructor(props){
-        super(props);
-        this.color ='red';
+    constructor(){
+        super();
         this.state = {
-            count: 0
-        }
+            name: 'kalyani'
+        } 
+        console.log('ClassA: Constructor')
     }
- static getDerivedStateFromProps(props, state){
-     if(props.num%2 == 0){
-        return {count: state.count+1}
-    }
-    else {
+    static getDerivedStateFromProps(props, state){
+        console.log('ClassA: gerDerivedStateFromProps')
         return null;
     }
- }
+    componentDidMount(){ 
+    
+        console.log('ClassA: componentDidMount')
+    }
 
     render(){
-        return <dev><h2>my favourate color is {this.state.favcolor}</h2></dev>
-    }
+        console.log('ClassA: render')
+        return <div>
+            <h2>ClassA</h2>
+            <ClassB></ClassB>
+        </div>
+    }   
 }
-
 export default ClassA;
