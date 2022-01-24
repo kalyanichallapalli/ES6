@@ -29,14 +29,14 @@ class ClassB extends React.Component{
     }
     Changename = ()=>{
         this.setState({
-            name: 'KALYANI CHALLAPALLI'
+            name: 'KALYANI CHALLAPALLI2'
         })
     }
     render(){
         console.log('ClassB: render')
         return <div>
             <h2>ClassB Created by {this.state.name}</h2>
-            <button onClick = {this.Changename}>Change Name</button>
+            <button onClick = {this.Changename}>Change State Class B</button>
            
         </div>
     }   

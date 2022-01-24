@@ -38,7 +38,7 @@ class ClassA extends React.Component{
         return <div>
             <h2>ClassA Created By {this.state.name}</h2>
             <ClassB></ClassB>
-            <button onClick = {this.Changestate}>Change State</button>
+            <button onClick = {this.Changestate}>Change State Class A</button>
         </div>
     }   
 }
