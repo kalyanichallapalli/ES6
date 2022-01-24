@@ -3,8 +3,10 @@ import './App.css';
 // import Message from './State/Message';
 // import SetState from './State/Setstate';
 // import PureComp from './pureComponent/purecomp';
-import ClickCount from './HOC/ClickCount';
-import HoverCounter from './HOC/HoverCounter';
+// import ClickCount from './HOC/ClickCount';
+// import HoverCounter from './HOC/HoverCounter';
+import Click from './HOC/click';
+import Hover from './HOC/hover';
 function App() {
   return (
     <div className="App">
@@ -13,8 +15,10 @@ function App() {
       {/* <Message></Message>
       <SetState></SetState> */}
       {/* <PureComp></PureComp> */}
-      <ClickCount></ClickCount>
-      <HoverCounter></HoverCounter>
+      {/* <ClickCount></ClickCount>
+      <HoverCounter></HoverCounter> */}
+      <Click></Click>
+      <Hover></Hover>
 
 
     </div>
