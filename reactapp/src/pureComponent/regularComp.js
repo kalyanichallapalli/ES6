@@ -1,14 +1,14 @@
 import React from "react";
-import ParentComp from "./ParentComp";
 class Regcomp extends React.Component{
-    constructor(){
-       super();
-
-    }
+    constructor(props){
+        super(props);
+ 
+     }
     render(){
-        return <div>
-            <h2>This is a Regular Component</h2>
-        </div>
+        console.log('REGULAR COMPONENT')
+        return (<div>
+            <h2>This is a Regular Component Created by {this.props.name}</h2>
+        </div>)
     }
 }
 export default Regcomp;
