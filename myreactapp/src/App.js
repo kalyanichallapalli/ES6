@@ -1,14 +1,13 @@
 
 import './App.css';
-import Click from './HOC/Click';
-import Hover from './HOC/Hover';
+import Clickcount from './HOC/HigherOrderComp/Clickcount';
+import HoverComp from './HOC/HigherOrderComp/HoverComp';
 
 function App() {
   return (
     <div className="App">
-      <Click></Click>
-      <Hover></Hover>
-      
+      <Clickcount></Clickcount>
+      <HoverComp></HoverComp>
     </div>
   );
 }
