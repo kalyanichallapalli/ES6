@@ -1,4 +1,5 @@
 import React from "react";
+import ParentComp from "./ParentComp";
 class Regcomp extends React.Component{
     constructor(){
        super();

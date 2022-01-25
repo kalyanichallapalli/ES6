@@ -3,10 +3,11 @@ import './App.css';
 // import Message from './State/Message';
 // import SetState from './State/Setstate';
 // import PureComp from './pureComponent/purecomp';
+import ParentComp from './pureComponent/ParentComp';
 // import ClickCount from './HOC/ClickCount';
 // import HoverCounter from './HOC/HoverCounter';
-import Click from './HOC/click';
-import Hover from './HOC/hover';
+// import Click from './HOC/click';
+// import Hover from './HOC/hover';
 function App() {
   return (
     <div className="App">
@@ -17,8 +18,9 @@ function App() {
       {/* <PureComp></PureComp> */}
       {/* <ClickCount></ClickCount>
       <HoverCounter></HoverCounter> */}
-      <Click></Click>
-      <Hover></Hover>
+      {/* <Click></Click>
+      <Hover></Hover> */}
+      <ParentComp></ParentComp>
 
 
     </div>
