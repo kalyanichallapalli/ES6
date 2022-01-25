@@ -1,6 +1,5 @@
 //1)Write a program to check whether a number is prime or not?
 //number divided by itself is called prime number
-const { notEqual } = require("assert");
 
 function primenumber(n){
     if(n===1){
