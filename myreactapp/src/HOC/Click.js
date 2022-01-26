@@ -7,7 +7,6 @@ render(){
         <h2>Click Here To Count</h2>
         <button onClick = {Incrementcount}>Click{count}</button> 
            </div>
-
 }
 }
 export default HigherOrderComponent(Click);
