@@ -1,6 +1,6 @@
 function F2(props) {
-    return <dev>
+    return <div>
         <h2> import from F1 to F2 by {props.username}</h2>
-    </dev>
+    </div>
 }
 export default F2;
