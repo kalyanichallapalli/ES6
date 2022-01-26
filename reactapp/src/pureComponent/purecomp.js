@@ -1,13 +1,17 @@
-import React, { PureComponent } from "react";
-class PureComp extends PureComponent{
+import React  from "react"
+
+class PureComp extends pureComponent{
     constructor(props){
         super(props);
+        this.state = {
+            name:'Kalyani'
+        }
  
      }
     render(){
-        console.log('PURE COMPONENT')
+        console.log('REGULAR COMPONENT')
         return (<div>
-         <h2>This is a Pure Component Created by {this.props.name}</h2>
+            <h2>This is a Pure Component Created by {this.state.name}</h2>
         </div>)
     }
 }

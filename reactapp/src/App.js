@@ -1,3 +1,4 @@
+
 import './App.css';
 // import ClassA from './lifecyclemethods/ClassA';
 // import Message from './State/Message';
@@ -6,9 +7,10 @@ import './App.css';
 // import ParentComp from './pureComponent/ParentComp';
 // import ClickCount from './HOC/ClickCount';
 // import HoverCounter from './HOC/HoverCounter';
+import PARENT from './Pure/parent';
 
-import Click from './HOC/Click';
-import Hover from './HOC/hover';
+// import Click from './HOC/Click';
+// import Hover from './HOC/hover';
 function App() {
   return (
     <div className="App">
@@ -22,9 +24,9 @@ function App() {
       {/* <Click></Click>
       <Hover></Hover> */}
       {/* <ParentComp></ParentComp> */}
-      <Click></Click>
-      <Hover></Hover>
-
+      {/* <Click></Click>
+      <Hover></Hover> */}
+  <PARENT></PARENT>
 
     </div>
   )
