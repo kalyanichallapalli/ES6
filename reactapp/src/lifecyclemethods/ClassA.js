@@ -1,5 +1,5 @@
 import React from "react";
-import ClassB from "./ClassB";
+//import ClassB from "./ClassB";
 class ClassA extends React.Component{
     constructor(){
         super();
@@ -37,7 +37,7 @@ class ClassA extends React.Component{
         console.log('ClassA: render')
         return <div>
             <h2>ClassA Created By {this.state.name}</h2>
-            <ClassB></ClassB>
+            {/* <ClassB></ClassB> */}
             <button onClick = {this.Changestate}>Change State Class A</button>
         </div>
     }   

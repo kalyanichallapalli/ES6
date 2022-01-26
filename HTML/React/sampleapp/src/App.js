@@ -2,7 +2,7 @@ import './App.css';
 // import FunctionalComp from './Components/Functional';
 // import ClassComp from './Components/Class';
 // import F1 from './Props/F1';
-import Football from './Components/Event/Event';
+import ClassA from './lifecycle/ClassA';
 
 function App() {
   return (
@@ -11,7 +11,8 @@ function App() {
       {/* <FunctionalComp></FunctionalComp>
       <ClassComp></ClassComp> */}
       {/* <F1></F1> */}
-      <Football></Football>
+      <ClassA></ClassA>
+      
 
     </div>
   );
