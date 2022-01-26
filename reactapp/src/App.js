@@ -7,8 +7,8 @@ import './App.css';
 // import ParentComp from './pureComponent/ParentComp';
 // import ClickCount from './HOC/ClickCount';
 // import HoverCounter from './HOC/HoverCounter';
-import PARENT from './Pure/parent';
-
+// import PARENT from './Pure/parent';
+import Get from './GetandPost/Get';
 // import Click from './HOC/Click';
 // import Hover from './HOC/hover';
 function App() {
@@ -26,7 +26,8 @@ function App() {
       {/* <ParentComp></ParentComp> */}
       {/* <Click></Click>
       <Hover></Hover> */}
-  <PARENT></PARENT>
+  {/* <PARENT></PARENT> */}
+  <Get></Get>
 
     </div>
   )
