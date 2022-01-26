@@ -7,16 +7,18 @@ export class PARENT  extends Component {
       super(props)
     
       this.state = {
-         name: 'Kalyani'
+         name: 'Kalyani',
+         count: 0
       }
     }
     componentDidMount(){
         setInterval(() => {
-            this.setState ={
+            this.setState({
                 name: 'Kalyani'
-            }
+            })
         },5000)
     }
+   
   render() {
       console.log('Parent component')
     return <div>
