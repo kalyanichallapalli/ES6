@@ -1,10 +1,12 @@
 
 import './App.css';
-import ClassA from './lifecyclemethods/ClassA';
+import ParentComp from './Pure/ParentComp';
+// import ClassA from './lifecyclemethods/ClassA';
 function App() {
   return (
     <div className="App">
-      <ClassA></ClassA> 
+      {/* <ClassA></ClassA>  */}
+      <ParentComp></ParentComp>
       
     </div>
   )
