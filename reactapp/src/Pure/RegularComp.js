@@ -1,12 +1,5 @@
 import React from "react";
 class Regcomp extends React.Component{
-    constructor(props){
-        super(props);
-        this.state ={
-            name:'Kalyani Challapalli'
-        }
- 
-     }
     render(){
         console.log('REGULAR COMPONENT')
         return (<div>

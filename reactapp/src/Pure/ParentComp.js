@@ -11,11 +11,13 @@ class ParentComp extends React.Component{
 
     }
     componentDidMount(){
-        setInterval(()=> {},2000)
-        this.setState ({
-            name:'Kalyani'
-        })
+        setInterval(() => {
+            this.setState({
+                name: 'Kalyani'
+            })
+        },5000)
     }
+    
     render(){
         console.log('............Here in the Parent Component..........')
         return <div>

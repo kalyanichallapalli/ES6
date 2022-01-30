@@ -1,12 +1,14 @@
 
 import './App.css';
-import ParentComp from './Pure/ParentComp';
-// import ClassA from './lifecyclemethods/ClassA';
+// import ParentComp from './Pure/ParentComp';
+import Post from './AxiosGet/Post';
+
 function App() {
   return (
     <div className="App">
-      {/* <ClassA></ClassA>  */}
-      <ParentComp></ParentComp>
+     
+      {/* <ParentComp></ParentComp> */}
+      <Post></Post>
       
     </div>
   )
