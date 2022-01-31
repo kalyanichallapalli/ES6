@@ -1,5 +1,7 @@
+
 import './App.css';
-import ClassComp from './ReactHooks/ClassComp';
+import UseEffectCount from './ReactHooks/UseEffectCount';
+// import ClassComp from './ReactHooks/ClassComp';
 // import ClickCount from './HOC/HigherOrderComp/Clickcount';
 // import HoverCount from './HOC/HigherOrderComp/HoverCount';
 // import StateHook from './ReactHooks/StateHook';
@@ -11,7 +13,8 @@ function App() {
     <HoverCount></HoverCount> */}
     {/* <StateHook></StateHook> */}
     {/* <Car></Car> */}
-    <ClassComp></ClassComp>
+    {/* <ClassComp></ClassComp> */}
+   <UseEffectCount></UseEffectCount>
     </div>
   );
 }
