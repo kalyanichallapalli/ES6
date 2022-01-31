@@ -26,6 +26,7 @@ let index = 9;
 let replacement = 'l';
 let replaced = string.substring(0,index)+replacement+string.substring(index+1);
  console.log(replaced)
+ console.log(replaced)
 function replaceAll(string, search, replace) {
     return string.split(search).join(replace);
   }

@@ -23,7 +23,7 @@ users.forEach (a =>{            // a is the object value
       }
       output[a.address.city].push(a.name)   // then we are pushing the city and name in to the oiutput                    
       });  
-  //  console.log(output);
+    console.log(output);
 // {
 //     name: "syed",
 //     id: 9,
@@ -55,7 +55,7 @@ function recarr (arr){
     }
     return newarr1;
 }        
-console.log(recarr([[[2,3,4,[5,7,6,[8,9],[10]]]]]))
+//console.log(recarr([[[2,3,4,[5,7,6,[8,9],[10]]]]]))
 //
 
 
