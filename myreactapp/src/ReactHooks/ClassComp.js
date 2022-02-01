@@ -28,3 +28,5 @@ import React, { Component } from 'react';
   }
 }
 export default ClassComp;
+
+/// this Class Component will do
