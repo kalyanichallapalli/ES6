@@ -1,14 +1,16 @@
 
 import './App.css';
-// import ParentComp from './Pure/ParentComp';
-// import Post from './AxiosGet/Post';
-import RefsDemo from './Pure/RefsDemo';
+import ComponentC from './ReactContext/ComponentC';
+import { UserProvider } from './ReactContext/UserContext';
+
 function App() {
+  console.log('APP')
+
   return (
     <div className="App">
-      {/* <ParentComp></ParentComp> */}
-      {/* <Post></Post> */}
-      <RefsDemo></RefsDemo>
+      <UserProvider value = 'Kalyani Challapalli'>
+      <ComponentC/>
+      </UserProvider>
     </div>
   )
 }

@@ -1,9 +1,11 @@
 
 import './App.css';
+import WithContext from './ReactHooks/WithContext';
+// import WithoutContext from './Hooks/WithoutContext'; 
 // import UseEffectCount from './ReactHooks/UseEffectCount';
 // import Calculation from './UseEffect';
-import ClassComp from './ReactHooks/ClassComp';
-import Timer from './UseStateTimer';
+// import ClassComp from './ReactHooks/ClassComp';
+// import Timer from './UseStateTimer';
 // import ClickCount from './HOC/HigherOrderComp/Clickcount';
 // import HoverCount from './HOC/HigherOrderComp/HoverCount';
 // import StateHook from './ReactHooks/StateHook';
@@ -15,11 +17,13 @@ function App() {
     <HoverCount></HoverCount> */}
     {/* <StateHook></StateHook> */}
     {/* <Car></Car> */}
-    <ClassComp></ClassComp>
-    <Timer></Timer>
+    {/* <ClassComp></ClassComp>
+    <Timer></Timer> */}
    {/* <UseEffectCount></UseEffectCount>
    <Calculation></Calculation> */}
-    </div>
+   {/* <WithoutContext></WithoutContext> */}
+<WithContext></WithContext>
+ </div>
   );
 }
 
