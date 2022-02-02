@@ -16,3 +16,9 @@ function Array1(arr){
 
   //Given an array like [1,2,4,5,7,8], create a map of all even numbers 
   //and their repetitions
+     let Array2 = [1,2,4,5,7,8];
+      
+     let  evemn = Array2.filter((i) => i%2 == 1)
+      console.log(evemn)
+
+ 
