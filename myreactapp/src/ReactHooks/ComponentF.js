@@ -6,7 +6,7 @@ import {CityContext} from '../App'
      console.log('Component F')
   return (
       <div>
-          <UserContext.Consumer>
+          {/* <UserContext.Consumer>
               {
                   username =>{
                         return(
@@ -21,7 +21,7 @@ import {CityContext} from '../App'
                         ) 
                   }
               }
-          </UserContext.Consumer>
+          </UserContext.Consumer> */} 
       </div>
   )
 
