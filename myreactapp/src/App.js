@@ -1,14 +1,21 @@
 
 import './App.css';
 import React from 'react';
-import FocusRef from './ReactHooks/FocusRef';
-import TimerRef from './ReactHooks/TimerRef';
+// import Car from './Hooks/UseState';
+// import UseEffect from './Hooks/UseEffect';
+import ComponentC from './Hooks/ComponentC';
+
+export const UserContext = React.createContext()
 function App() {
  
   return (
     <div className="App">
-   <FocusRef></FocusRef>
-   <TimerRef></TimerRef>
+      {/* <Car></Car>
+      <UseEffect></UseEffect> */}
+      <UserContext.Provider value = {'Kalyani Challapalli'}>
+      <ComponentC></ComponentC>
+      </UserContext.Provider>
+   
      </div>
   );
 }
