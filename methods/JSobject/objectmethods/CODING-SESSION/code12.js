@@ -13,3 +13,6 @@ function Array1(arr){
   
   }
   console.log(Array1([1,2,3,2,3,5,6,3]))
+
+  //Given an array like [1,2,4,5,7,8], create a map of all even numbers 
+  //and their repetitions
