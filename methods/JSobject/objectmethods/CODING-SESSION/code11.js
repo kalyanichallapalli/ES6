@@ -13,7 +13,7 @@ function maxoccer(str){
     return mymap;
 
 }
-console.log(maxoccer('KALYANI'))
+//console.log(maxoccer('KALYANI'))
 
 function stringMap(str){
     let newstr = str.split(' ')
