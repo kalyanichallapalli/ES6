@@ -8,12 +8,12 @@ import {UserContext} from '../App'
           <UserContext.Consumer>
               {
                   username =>{
-                        return <div> Component F Consume {username} from App Component  </div>
+                        return <div> Component F Consume {username} From APP  Component </div>
                   }
               }
           </UserContext.Consumer>
       </div>
-  )
+  ) 
 
  }
 export default ComponentF
