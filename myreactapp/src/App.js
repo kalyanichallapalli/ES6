@@ -1,20 +1,19 @@
 import './App.css';
-import React from 'react';
-// import ComponentC from './ReactHooks/ComponentC';
-// import ComponentC from './Hooks/ComponentC';
-// export const UserContext = React.createContext()
-// import Updatedstate from './ReactHooks/StateHook'; 
-import UseEffect from './ReactHooks/UseEffect'; 
+import React, { createContext } from 'react';
+import ComponentC from './ReactHooks/ComponentC';
+export const UserContext = React.createContext();
+export const CityContext = React.createContext();
+
 function App() {
   console.log("App")
   return (
     <div className="App">
-   {/* <UserContext.Provider value = {'Kalyani Challapalli'}>
+   <UserContext.Provider value = {'Kalyani Challapalli'}> 
+   <CityContext.Provider value = {'Mountain House'}>
    <ComponentC/>
-   </UserContext.Provider> */}
-   <UseEffect></UseEffect>
-
-   </div>
+   </CityContext.Provider>
+   </UserContext.Provider>
+     </div>
   );
 }
 
