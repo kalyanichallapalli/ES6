@@ -1,21 +1,16 @@
 
 import './App.css';
 import React from 'react';
-// import Car from './Hooks/UseState';
-// import UseEffect from './Hooks/UseEffect';
-import ComponentC from './Hooks/ComponentC';
+// import UseReducerCount from './ReactHooks/UseReducerCount';
+import ReducerCount2 from './ReactHooks/ReducerCount2';
 
-export const UserContext = React.createContext()
 function App() {
  
   return (
     <div className="App">
-      {/* <Car></Car>
-      <UseEffect></UseEffect> */}
-      <UserContext.Provider value = {'Kalyani Challapalli'}>
-      <ComponentC></ComponentC>
-      </UserContext.Provider>
-   
+{/*     
+   <UseReducerCount></UseReducerCount> */}
+   <ReducerCount2></ReducerCount2>
      </div>
   );
 }
