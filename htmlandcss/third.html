@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <style>
+      span{color: red}
+      span.highlight{display:block;}
+      h2 {
+        position: static;
+        left: 100px;
+        top: 150px;
+        } 
+        p{color: red}
+    p.test {color: orange}
+    p.demo {color: blue}
+    h2.test{
+        color:purple
+    }
+    
+    
+
+  </style>
+<body>
+    <!-- inline to block chnage using display property uisng i the style tag -->
+    <!--div is the block level element span is the inline element -->
+    <div>The following span is an <span class="highlight" >Inline Element</span>; 
+        its background has been colored to display both the beginning and end of
+        the inline element's influence.</div>
+
+    <div>The following paragraph is a <p class="highlight">block-level element;</p>
+        its background has been colored to display both the beginning and end of
+        the block-level element's influence.</div>    
+    <!--position property will let you know where you have to place the element 
+     its of 5 ways (static, relative, absolute, fixed, or sticky).-->   
+     <h2>This is for checking the position of the element </h2> 
+     <!--In how many ways you can display HTML elements?
+    (inline,block,inline-block,flex,inline-flex,grid,none)-->
+    <div>this is yo check the display types of an html elememt<span class= 'highlight'>Kalyani</span></div>
+    <!--TARGET ATTRIBUTE-->
+    <a href="https://www.w3schools.com" target="_top">Visit W3Schools</a>
+    <!--Specificity-->
+    <p id="demo" class="test" >Hello World!</p>  
+    <!-- //Diff ways to apply CSS? -->
+    <p style=" color: red" >Kalyani InLine  CSS?</p>  
+   <!--Inline Css-->
+    <h2 class="test">Challapalli Internal CSS?</h2> 
+    <!--external-->
+
+    
+
+
+
+</body>
+  
+</html>
