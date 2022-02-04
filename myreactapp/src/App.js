@@ -1,8 +1,9 @@
 
 import './App.css';
 import React from 'react';
+import CallBackHook from './CallBackHook/CallBackHook';
 // import UseReducerCount from './ReactHooks/UseReducerCount';
-import ReducerCount2 from './ReactHooks/ReducerCount2';
+// import ReducerCount2 from './ReactHooks/ReducerCount2';
 
 function App() {
  
@@ -10,7 +11,8 @@ function App() {
     <div className="App">
 {/*     
    <UseReducerCount></UseReducerCount> */}
-   <ReducerCount2></ReducerCount2>
+   {/* <ReducerCount2></ReducerCount2> */}
+   <CallBackHook></CallBackHook>
      </div>
   );
 }
