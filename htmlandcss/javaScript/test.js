@@ -52,18 +52,52 @@ let car = {brand:'Ford', model:'Mustang', color:'yellow', year:'2000'}
     console.log (message)
  }
  mycar(car)
-// call backs
-function myFirst() {
-    console.log("Hello");
-  }
-  
-  function mySecond() {
-    console.log("Goodbye");
-  }
-  
-  myFirst();
-  mySecond();
-  myFirst();
+// promise all
+// const promise1 = Promise.resolve(3);
+// const promise2 = 42;
+// const promise3 = new Promise((resolve, reject) => {
+//   setTimeout(resolve, 100, 'foo');
+// });
+
+// Promise.all([promise1, promise2, promise3]).then((values) => {
+//   console.log(values);
+// });
+
+//Promise allsettle()
+// const promise1 = Promise.resolve(3);
+// const promise2 = new Promise((resolve, reject) => setTimeout(reject, 100, 'foo'));
+// const promise3 = 42;
+// const promises = [promise1, promise2,promise3];
+
+// Promise.allSettled(promises).
+//   then((results) => results.forEach((result) => console.log(result.status)));
+//Promise.any()
+// const promise1 = Promise.reject(0);
+// const promise2 = new Promise((resolve) => setTimeout(resolve, 100, 'quick'));
+// const promise3 = new Promise((resolve) => setTimeout(resolve, 500, 'slow'));
+
+// const promises = [promise1, promise2, promise3];
+
+// Promise.any(promises).then((value) => console.log(value));
+//Asyne/wait
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

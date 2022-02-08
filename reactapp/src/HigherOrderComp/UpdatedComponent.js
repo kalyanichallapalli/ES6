@@ -1,6 +1,6 @@
 import React from "react";
 
-const UpdatedComonent = (OrginalComponent)=>{
+const UpdatedComponent = (OrginalComponent)=>{
     class NewComponent extends React.Component{
         constructor(){
             super();
@@ -24,5 +24,5 @@ const UpdatedComonent = (OrginalComponent)=>{
     }
     return NewComponent;
 }
-export default UpdatedComonent;
+export default UpdatedComponent;
 

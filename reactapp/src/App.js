@@ -1,16 +1,18 @@
 
 import './App.css';
-import ComponentC from './ReactContext/ComponentC';
-import { UserProvider } from './ReactContext/UserContext';
+import UpdatedComonent from './HigherOrderComp/UpdatedComponent';
+// import ComponentC from './ReactContext/ComponentC';
+// import { UserProvider } from './ReactContext/UserContext';
 
 function App() {
   console.log('APP')
 
   return (
     <div className="App">
-      <UserProvider value = 'Kalyani Challapalli'>
+      {/* <UserProvider value = 'Kalyani Challapalli'>
       <ComponentC/>
-      </UserProvider>
+      </UserProvider> */}
+      <UpdatedComponent></UpdatedComponent>
     </div>
   )
 }
