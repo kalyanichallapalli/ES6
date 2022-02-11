@@ -91,3 +91,4 @@ cc = string.split('').map(x => x.charCodeAt(0))
 console.log(cc)
 //Write a program to find a unique character in a string?
 //kalyani$ == $
+
