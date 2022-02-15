@@ -2,9 +2,27 @@
 <html>
     <header>
       This is my first page 
+      <style>
+        #outer-div {
+          width: 100%;
+          text-align: center;
+          background-color: #0666a3
+        }
+        #inner-div {
+          display: inline-block;
+          margin: 0 auto;
+          padding: 3px;
+          background-color: #8ebf42
+        }
+      </style>
     </header>
     <body>
         <p>click the below</p>
+        <!-- How can we align a block element inside another element? -->
+        <div id="outer-div">
+          <div id="inner-div"> I am a horizontally centered div.</div>
+        </div>
+
         <div>
          <input type="button" value="submit">
          <br>

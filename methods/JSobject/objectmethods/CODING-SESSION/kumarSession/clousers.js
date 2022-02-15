@@ -7,3 +7,8 @@ function init() {
   }
   init();
   
+ const person = {
+    name :'kalyani'
+  };
+const fullname = person.getOwnPropertyDiscriptor(person, 'name');
+console.log(fullname.value)// kalyani
