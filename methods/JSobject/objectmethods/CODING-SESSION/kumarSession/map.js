@@ -27,7 +27,9 @@ console.log(arr);
 
 
 //how to make copy  of Object  or an array .
+
 //shallow copy and deep copy 
+
 //shallow comparison
 
 //promise.race return result of first promise that is  resolved/rejected
