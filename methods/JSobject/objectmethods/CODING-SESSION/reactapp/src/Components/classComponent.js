@@ -7,7 +7,7 @@ import React, { Component } from 'react'
      }
   render() {
     return (
-      <div>This is the class component created by {this.name}</div>
+      <div>This Is the class component created by {this.name}</div>
     )
   }
 }
