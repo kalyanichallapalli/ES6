@@ -1,6 +1,10 @@
 import './App.css';
-import UseEffecthook from './Hooks/UseEffecthook';
-import UseStatehook from './Hooks/UseStatehook';
+import A from './Context/A';
+// import { UseProvider } from './Context/ContextApi';
+import { UseProvider } from  './Hooks/ContextHook'
+
+// import UseEffecthook from './Hooks/UseEffecthook';
+// import UseStatehook from './Hooks/UseStatehook';
 // import Fcomponent from './Components/functionalcomponent';
 // import ClassComponent from './Components/classComponent';
 // import Funcomp1 from './props/Funcomp1';
@@ -9,6 +13,7 @@ import UseStatehook from './Hooks/UseStatehook';
 // import Parent from './PureandMemo/Parent';
 
 function App() {
+  console.log('App')
   return (
     <div className="App">
       This is App componet 
@@ -18,8 +23,11 @@ function App() {
       <Class1></Class1>
       <FunEvent></FunEvent>*/}
       {/* <Parent></Parent> */}
-      <UseStatehook></UseStatehook>
-      <UseEffecthook></UseEffecthook>
+      {/* <UseStatehook></UseStatehook>
+      <UseEffecthook></UseEffecthook> */}
+      <UseProvider value = 'Kalyani Challapalli'>
+        <A></A>
+      </UseProvider>
    </div> 
   );
 }

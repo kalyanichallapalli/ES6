@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { UserConsumer } from './UserContext';
 
 class ComponentF extends Component {
