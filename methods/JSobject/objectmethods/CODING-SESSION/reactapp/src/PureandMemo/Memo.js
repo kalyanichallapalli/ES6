@@ -1,9 +1,11 @@
 import React from 'react'
 
-function Memo() {
+function Memo({name}) {
+    console.log('Memo component :')
+
   return (
-    <div>Memo</div>
+    <div>This is Memo component created by {name}</div>
   )
 }
 
-export default Memo;
+export default React.memo(Memo);
