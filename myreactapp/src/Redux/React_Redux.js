@@ -8,6 +8,7 @@ import { Incrementcount } from './store';
    }
 
   render() {
+    console.log(this.props)
     return (
       <div>React_Redux
           <h2>Count: {this.props.count} </h2>

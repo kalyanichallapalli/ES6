@@ -1,4 +1,4 @@
-import redux,{creatorStore} from 'react-redux';
+import {createStore} from 'redux';
 // initial state;
 
 const initialState = {count: 0}
@@ -18,5 +18,6 @@ const myReducer = (state = initialState, action) =>{
 }
 };
 //CREATE A STORE 
-const store = creatorStore(myReducer);
+const store = createStore(myReducer);
 export default store;
+
