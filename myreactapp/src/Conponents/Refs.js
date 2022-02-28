@@ -15,7 +15,7 @@ import React from 'react';
   render() {
     return (
       <div>
-           <h2> REF COmponent </h2> 
+           <h2> REF Component </h2> 
            <input type= 'text' onChange={this.handleChange} ref = {this.inputRef} ></input>
         
           </div>

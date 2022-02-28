@@ -1,0 +1,30 @@
+import React from 'react';
+import{connect} from 'react-redux'
+import { Incrementcount } from './store';
+
+ class React_Redux extends React.Component {
+   constructor(props){
+     super(props)
+   }
+
+  render() {
+    return (
+      <div>React_Redux
+          <h2>Count: {this.props.count} </h2>
+           <button onClick={this.props.Increment}>Inc</button>
+           <span>  and    </span>
+           <button onClick={this.props.Decrement}>Dec</button>
+
+      </div>
+    )
+  }
+}
+const MapStateToProps = (state) =>{
+  return {count:state.count}
+}
+const MapDispatchToProps = (dispatch) =>{
+    return {
+      Increment: () => dispatch(Incrementcount())
+}  
+}
+export default connect(MapStateToProps,MapDispatchToProps)(React_Redux);
