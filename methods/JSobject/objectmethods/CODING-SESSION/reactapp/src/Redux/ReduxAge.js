@@ -1,8 +1,8 @@
 import React from 'react';
 import{connect} from 'react-redux'
-import { Incrementcount } from './store';
+import { Increment } from './store';
 
- class React_Redux extends React.Component {
+ class ReactAge extends React.Component {
    constructor(props){
      super(props)
    }
@@ -26,7 +26,7 @@ const MapStateToProps = (state) =>{
 }
 const MapDispatchToProps = (dispatch) =>{
     return {
-      Increment: () => dispatch(Incrementcount())
+      Increment: () => dispatch(Increment())
 }  
 }
-export default connect(MapStateToProps,MapDispatchToProps)(React_Redux);
+export default connect(MapStateToProps,MapDispatchToProps)(ReactAge);
