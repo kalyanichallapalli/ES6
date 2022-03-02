@@ -36,7 +36,7 @@ const myReducer = ((state = {initialState}, action) =>{
 
 const store = createStore(myReducer);
 
-//to get the start we have to subscribe
+//to get the state we have to subscribe
 const  subscribe = store.subscribe(() =>store.getState())
 console.log(store.getState());
 //to update the state 
