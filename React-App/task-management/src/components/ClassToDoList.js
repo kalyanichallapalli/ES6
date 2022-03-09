@@ -58,6 +58,7 @@ class ClassToDoList extends Component {
       const items = this.state.items;
       items.map(item =>{
           if(item.key ===key){
+              
               item.text = text;
           }
       })

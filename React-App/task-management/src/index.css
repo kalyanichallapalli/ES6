@@ -15,7 +15,7 @@ body {
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
+  border: 1px solid rgb(129, 180, 70);
   padding: 30px;
   border-radius: 5px;
 }
