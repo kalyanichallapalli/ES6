@@ -1,8 +1,6 @@
 import React,{useState} from 'react';
 import './List.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-
-
 function FunToDoList() {
     const[text, setText] = useState(''); 
     const[items, setItems]  = useState([]) 
@@ -26,12 +24,14 @@ function FunToDoList() {
       ))
     }
     const setUpdate = (text,id)=>{
-        items.map(item =>{ 
+        
+        const newItems = items.map(item =>{ 
             if(item.id === id){
-                item.text = text;
+                return {...item, text:text}
             }
+            return item
         })
-        setItems(items)    
+        setItems(newItems);   
     }
 
   return (
@@ -49,7 +49,7 @@ function FunToDoList() {
             <div className='list' key={item.id}>
                 <p>
                 {/* {item.text} */}
-                <input type='text'id={item.key} value={item.text} onChange={(e)=>setUpdate(e.target.value, text.id)} ></input>
+                <input type='text'id={item.key} value={item.text} onChange={(e)=>setUpdate(e.target.value, item.id)} ></input>
                 <span>
                 <FontAwesomeIcon className='faicon' icon='trash' onClick={()=> deleteHandler(item.id)}></FontAwesomeIcon>
                 </span>
