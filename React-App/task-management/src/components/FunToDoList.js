@@ -14,7 +14,7 @@ function FunToDoList() {
         const newitem = {
             id: Math.floor(Math.random()*1000),
             text: text
-
+        
         }
         setItems([...items, newitem])
         setText('')
