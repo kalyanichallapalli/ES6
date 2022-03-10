@@ -6,10 +6,6 @@ import {faTrash} from '@fortawesome/free-solid-svg-icons'
 import FunToDoList from './components/FunToDoList';
 library.add(faTrash)
 
-// add items to the list 
-//delet item formthe list 
-//edit item in the list 
-
 function App() {
   return (
     <div className = 'App'>

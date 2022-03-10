@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import List from './List';
+// add items to the list 
+//delet item formthe list 
+//edit item in the list 
 
 class ClassToDoList extends Component {
     constructor(props){

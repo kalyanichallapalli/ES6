@@ -1,6 +1,10 @@
 import React,{useState} from 'react';
 import './List.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+// add items to the list 
+//delet item formthe list 
+//edit item in the list 
+
 function FunToDoList() {
     const[text, setText] = useState(''); 
     const[items, setItems]  = useState([]) 
