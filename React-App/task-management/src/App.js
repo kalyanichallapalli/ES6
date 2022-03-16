@@ -4,9 +4,6 @@ import ClassToDoList from './components/ClassToDoList';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {faTrash} from '@fortawesome/free-solid-svg-icons'
 import FunToDoList from './components/FunToDoList';
-import Cal 
-
-library.add(faTrash)
 
 function App() {
   return (
