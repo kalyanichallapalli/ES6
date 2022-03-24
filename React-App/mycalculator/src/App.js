@@ -9,7 +9,8 @@ function App() {
   const updateCal = (value) =>{
     if(operator.includes(value) && cal === '' || operator.includes(value) && operator.includes(cal.slice(-1))){
       return;
-    }
+    }       
+    //
     setCal(cal + value);
 
     if(!operator.includes(value)){
