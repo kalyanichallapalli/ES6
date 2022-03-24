@@ -13,7 +13,7 @@ function App() {
      Axios.get("http://localhost:3001/getUsers").then((response) =>{
        setEmployee(response.data)
      })
-  },[])
+  },[]) 
   const createUser = () =>{
     Axios.post("http://localhost:3001/createUser",{
       id: id,
