@@ -11,6 +11,8 @@ useEffect(()=>{
         <h2>Count: {count}</h2>
         <button onClick = {() => setCount(count+1)}>Count</button>
         <p>Calculation: {calculation}</p>
+        
+
     </div>
 }
 export default UseEffect;
