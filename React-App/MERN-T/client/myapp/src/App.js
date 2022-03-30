@@ -20,7 +20,7 @@ function App() {
       name: name,
       age:age,
     }).then((response)=>{
-        // alert("Inserted User")
+    // alert("Inserted User")
         setEmployee([...employee, {id:id, name:name, age:age}])
     })
   }
