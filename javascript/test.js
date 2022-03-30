@@ -4,3 +4,4 @@ const flatNumbers = numbers.flat();
 const flatNumber = numbers.flat();
 console.log(flatNumbers);
 console.log(flatNumber);
+//
