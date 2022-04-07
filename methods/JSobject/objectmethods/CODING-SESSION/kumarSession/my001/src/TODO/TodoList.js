@@ -3,7 +3,7 @@ import Todosave from './Todosave';
 
 function TodoList() {
   const[task, setTask] = useState(''); 
-  const[todos, setTodos] = useState([])
+  const[todos, setTodos] = useState([]);
 
   const handleChange = (e)=>{
     setTask(e.target.value)
