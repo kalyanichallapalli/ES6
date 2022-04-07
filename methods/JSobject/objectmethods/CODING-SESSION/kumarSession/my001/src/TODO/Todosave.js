@@ -7,7 +7,7 @@ function Todosave({todos, handleDelete}) {
         {
             todos.map((todo,index)=>
             <div key={index}>
-                <h5>{todo} <span/> <button onClick={()=> handleDelete(index)}>Delete</button></h5>
+                <h5>{todo} <span/> <button className='delete' onClick={()=> handleDelete(index)}>Delete</button></h5>
             </div>)
         }
     </div>

@@ -31,7 +31,7 @@ function TodoList() {
           </div>
           <h5 className='card-title'>ToDo App</h5>
           <form onSubmit={handleSubmit}>
-            <input type='text' name = 'task' value = {task} onChange={handleChange}/>  <span/>
+            <input size = '25' type='text' name = 'task' value = {task} onChange={handleChange}/>  <span/>
             <input type = 'submit' value='Add' name = 'Add'/>
           </form>
           <Todosave todos={todos} handleDelete={handleDelete}></Todosave>
