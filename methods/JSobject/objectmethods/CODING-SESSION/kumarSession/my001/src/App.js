@@ -3,6 +3,7 @@ import Button from './Components/Button';
 import Calculator from './Components/Calculator';
 import F2 from './Components/F2';
 import TodoList from './TODO/TodoList';
+import Todo1 from './TODO/Todo1';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <Calculator></Calculator> */}
       {/* <TodoList></TodoList> */}
       {/* <F2></F2> */}
-      <TodoList></TodoList>
+      {/* <TodoList></TodoList> */}
+      <Todo1></Todo1>
     </div>
   );
 }
