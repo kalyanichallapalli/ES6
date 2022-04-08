@@ -28,35 +28,4 @@ for(let i = 0; i<array1.length; i++){
     map1.set(array1[i], map1.has(array1[i]) ? map1.get(array1[i]) + 1 : 1)
 }
 console.log(map1)
-//ANA GRAM
-function name(A,B){
-  let C = A.split('').sort().join('').toLowerCase();
-  let D = B.split('').sort().join('').toLowerCase();
-  console.log(C)
-  console.log(D)
-    if(C==D){
-        return true;
-    }else{
-        return false
-    }
- }
-console.log(name('car','rac'))
-//anagram with array
-function name(arr){
 
-    for(let i=0; i<arr.length; i++){
-        let mymap = new Map();
-        let arra = [];
-        
-    let C = A.split('').sort().join('').toLowerCase();
-    let D = B.split('').sort().join('').toLowerCase();
-    console.log(C)
-    console.log(D)
-      if(C==D){
-          return true;
-      }else{
-          return false
-      }
-    }
-   }
-   console.log(arr['car', 'rac', "tap", "pat"])
