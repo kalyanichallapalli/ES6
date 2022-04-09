@@ -1,14 +1,10 @@
-import UseState from './Hooks/UseState';
 import './App.css';
-import UseEffect from './Hooks/UseEffect';
-import UseReducer from './Hooks/UseReducer';
+import Main from './React-Router/Main';
 
 function App() {
   return (
     <div className="App">
-      <UseState></UseState>
-      <UseEffect></UseEffect>
-      <UseReducer></UseReducer>
+      <Main></Main>
     </div>
   );
 }
