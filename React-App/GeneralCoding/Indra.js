@@ -1,20 +1,27 @@
-function dequeue(arr){
-  let dstack = [];
-  for(let i = 0; i<arr.length; i++){
-    dstack = arr.shift()
-    console.log(dstack)
-  }
-  return dstack;
-}
-function enqueue(arr){
-      let enstack = [];
-      for(let i = 0; i<arr.length; i++){
-        enstack.push(arr[i])
-      }
 
-      dequeue (enstack);
+//'''''''''''''''''''''''''Q1'''''''''''''''''''''''''''''''''''''
+let q1 = [];
+let q2 = [];
+
+function enqueue(num){
+  q1.push(num);
+  return q1;
 }
-console.log(enqueue([1,2]))
+function Dequeue()
+{
+  //  if (q1.length===0)if(q2.length===0)console.log('stacks are empty');
+    while(q1.length>0){
+    q2.push(q1.shift());
+    }
+    return q2;
+    
+}
+enqueue(1)
+enqueue(2)
+console.log(q1)
+console.log(Dequeue());
+
+
 
 //using recurssive factorial 
 function factorial(x) { 
